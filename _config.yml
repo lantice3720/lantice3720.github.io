@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 란타넘 공방(공사중) # the main title
 
-tagline: 잡동사니를 쌓아두는 곳 # it will display as the sub-title
+tagline: 잡동사니들을 쌓아두는 곳 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

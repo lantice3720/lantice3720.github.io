@@ -42,13 +42,10 @@ jobs:
             - name: Build
               run: hugo --minify --gc
 
-            - name: Deploy 🚀
-              uses: JamesIves/github-pages-deploy-action@v4
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
               with:
-                  branch: gh-pages
-                  folder: public
-                  clean: true
-                  single-commit: true
+                path: public/
                   
     deploy:
         permissions:

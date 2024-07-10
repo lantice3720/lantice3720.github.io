@@ -1,0 +1,4 @@
+baseURL = 'https://lantice3720.github.io'
+languageCode = 'en-us'
+title = 'lanthanide Workshop'
+theme = 'hugo-theme-stack'

@@ -98,12 +98,12 @@ params:
 
         giscus:
             repo: lantice3720.github.io
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            lightTheme:
-            darkTheme:
+            repoID: R_kgDOL1z2yQ
+            category: Giscus Comment
+            categoryID: DIC_kwDOL1z2yc4Cgvwf
+            mapping: pathname
+            lightTheme: light
+            darkTheme: dark
             reactionsEnabled: 1
             emitMetadata: 0
 

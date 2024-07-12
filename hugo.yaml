@@ -13,17 +13,28 @@ languages:
         languageName: English
         title: lanthanide Workshop
         weight: 1
+        permalinks:
+            page:
+                posts: /en/posts/:slug/
+            section:
+                posts: /en/posts/
+        posts: /post/
         params:
             description: Tinkering site for various things
     ko:
         languageName: 한국어
         title: 란타넘 공방
         weight: 2
+        permalinks:
+            page:
+                posts: /posts/:slug/
+            section:
+                posts: /posts/
+        posts: /post/
         params:
             description: 이것저것 뚝딱거리는 곳입니다.
+        
             
-permalinks:
-    posts: /post/:slug/
     
 menu:
     main:

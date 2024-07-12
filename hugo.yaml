@@ -77,8 +77,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥🛠
-        subtitle: 
+        emoji: 🛠
+        subtitle: 제 공방에 오신 것을 환영합니다. 이 곳은 언제나 누구에게나 열려 있습니다. 쓸모있는 무언가를 찾아 얻어가는 건 방문자의 몫이지만요.
         avatar:
             enabled: true
             local: true
@@ -94,68 +94,10 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
-
-        disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
-
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
-
-        beaudar:
-            repo:
-            issueTerm: pathname
-            label:
-            theme:        
-
-        remark42:
-            host:
-            site:
-            locale:
-
-        vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-            autoCreateIssue: false
-
-        # Waline client configuration see: https://waline.js.org/en/reference/component.html
-        waline:
-            serverURL:
-            lang:
-            pageview:
-            emoji:
-                - https://unpkg.com/@waline/emojis@1.0.1/weibo
-            requiredMeta:
-                - name
-                - email
-                - url
-            locale:
-                admin: Admin
-                placeholder:
-
-        twikoo:
-            envId:
-            region:
-            path:
-            lang:
-
-        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
-        cactus:
-            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
-            serverName: "cactus.chat"
-            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+        provider: giscus
 
         giscus:
-            repo:
+            repo: lantice3720.github.io
             repoID:
             category:
             categoryID:
@@ -165,16 +107,6 @@ params:
             reactionsEnabled: 1
             emitMetadata: 0
 
-        gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
-
-        cusdis:
-            host:
-            id:
     widgets:
         homepage:
             - type: search

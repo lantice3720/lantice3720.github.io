@@ -1,9 +1,0 @@
-baseURL = 'https://lantice3720.github.io/'
-languageCode = 'en-us'
-title = 'lanthanide Workshop'
-theme = 'hugo-theme-stack'
-[module]
-	[[module.mounts]]
-		excludeFiles = [ 'posts/Templates/*' ]
-		source = 'content'
-		target = 'content'

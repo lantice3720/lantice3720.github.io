@@ -1,7 +1,54 @@
-baseURL: 'https://lantice3720.github.io/'
-languageCode: 'en-us'
-title: lanthanide Workshop
+baseURL: https://lantice3720.github.io/
+languageCode: en-us
 theme: hugo-theme-stack
+paginate: 3
+copyright: © 2024. lanthanide
+
+efaultContentLanguage: ko
+
+hasCJKLanguage: true
+
+languages:
+    en:
+        languageName: English
+        title: lanthanide Workshop
+        weight: 1
+        params:
+            description: Tinkering site for various things
+    ko:
+        languageName: 한국어
+        title: 란타넘 공방
+        weight: 2
+        params:
+            description: 이것저것 뚝딱거리는 곳입니다.
+            
+permalinks:
+    post: /post/:slug/
+    
+menu:
+    main:
+        - identifier: mainmenu
+          name: main menu
+          utl: /
+          weight: -90
+          params:
+            icon: outline/menu
+            newTab: true
+            
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/lantice3720
+          params:
+              icon: github-logo
+
+        - identifier: discord
+          name: Discord
+          url: https://discord.com
+          params:
+              icon: discord-logo
+    
+
 module:
     mounts:
         - source: content

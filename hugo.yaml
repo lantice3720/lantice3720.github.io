@@ -4,7 +4,7 @@ theme: hugo-theme-stack
 paginate: 3
 copyright: lanthanide
 
-efaultContentLanguage: ko
+DefaultContentLanguage: ko
 
 hasCJKLanguage: true
 
@@ -23,16 +23,23 @@ languages:
             description: 이것저것 뚝딱거리는 곳입니다.
             
 permalinks:
-    post: /post/:slug/
+    posts: /post/:slug/
     
 menu:
     main:
-        - identifier: main_menu
-          name: 메뉴
+        - identifier: main
+          name: Main
           url: /
           weight: -100
           params:
-            icon: outline/menu
+            icon: outline/home
+            newTab: false
+        - identifier: posts
+          name: Posts
+          url: /posts
+          weight: -99
+          params:
+            icon: outline/article
             newTab: false
             
     social:

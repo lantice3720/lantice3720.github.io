@@ -123,7 +123,7 @@ params:
                 
         remark42:
             host: http://remark42.lanthanide.kr
-            site: https://blog.lanthanide.kr
+            site: remark
             locale: ko
 
     widgets:

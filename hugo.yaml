@@ -77,8 +77,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🛠
-        subtitle: 제 공방에 오신 것을 환영합니다. 이 곳은 언제나 누구에게나 열려 있습니다. 쓸모있는 무언가를 찾아 얻어가는 건 방문자의 몫이지만요.
+        emoji: 🎯
+        subtitle: 이곳에서 쓸모있는 무언가를 얻어가시길 바랍니다.
         avatar:
             enabled: true
             local: true
@@ -94,7 +94,7 @@ params:
 
     comments:
         enabled: true
-        provider: giscus
+        provider: remark42
 
         giscus:
             repo: lantice3720.github.io
@@ -106,6 +106,25 @@ params:
             darkTheme: dark
             reactionsEnabled: 1
             emitMetadata: 0
+            
+        waline:
+            serverURL:
+            lang:
+            pageview:
+            emoji:
+                - https://unpkg.com/@waline/emojis@1.0.1/weibo
+            requiredMeta:
+                - name
+                - email
+                - url
+            locale:
+                admin: Admin
+                placeholder:
+                
+        remark42:
+            host: http://remark42.lanthanide.kr
+            site: https://blog.lanthanide.kr
+            locale: ko
 
     widgets:
         homepage:

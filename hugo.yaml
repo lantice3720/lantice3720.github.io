@@ -122,7 +122,7 @@ params:
                 placeholder:
                 
         remark42:
-            host: http://remark42.lanthanide.kr
+            host: https://remark42.lanthanide.kr
             site: remark
             locale: ko
 

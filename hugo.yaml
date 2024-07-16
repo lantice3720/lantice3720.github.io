@@ -44,6 +44,13 @@ menu:
           params:
             icon: outline/article
             newTab: false
+        - identifier: projects
+          name: Projects
+          url: /projects
+          weight: -98
+          params:
+            icon: outline/address-book
+            newTab: false
             
     social:
         - identifier: github
@@ -78,7 +85,7 @@ params:
 
     sidebar:
         emoji: 🎯
-        subtitle: 이곳에서 쓸모있는 무언가를 얻어가시길 바랍니다.
+        subtitle: 이곳에서 쓸모있는 무언가를 얻어가시길 바랍니다.<br>틀린 정보가 있다면 알려주세요.
         avatar:
             enabled: true
             local: true
@@ -95,31 +102,6 @@ params:
     comments:
         enabled: true
         provider: remark42
-
-        giscus:
-            repo: lantice3720.github.io
-            repoID: R_kgDOL1z2yQ
-            category: Giscus Comment
-            categoryID: DIC_kwDOL1z2yc4Cgvwf
-            mapping: pathname
-            lightTheme: light
-            darkTheme: dark
-            reactionsEnabled: 1
-            emitMetadata: 0
-            
-        waline:
-            serverURL:
-            lang:
-            pageview:
-            emoji:
-                - https://unpkg.com/@waline/emojis@1.0.1/weibo
-            requiredMeta:
-                - name
-                - email
-                - url
-            locale:
-                admin: Admin
-                placeholder:
                 
         remark42:
             host: https://remark42.lanthanide.kr

@@ -4,3 +4,6 @@
 [submodule "themes/hugo-theme-stack"]
 	path = themes/hugo-theme-stack
 	url = git@github.com:lantice3720/hugo-theme-stack.git
+[submodule "content"]
+	path = content
+	url = git@github.com:lantice3720/lanthanideBlogPosts.git
